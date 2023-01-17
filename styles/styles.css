@@ -38,7 +38,7 @@ input.src{
   border-radius: 15px;
   color: #444;
   border: 2px solid #0000;
-  background: #fff url("/imagenes/search.png") no-repeat left ;
+  background: #fff url("../imagenes/search.png") no-repeat left ;
   background-size: 30px;
   background-color: rgba(0, 0, 0, .2);
   width: 60px;
@@ -213,13 +213,13 @@ main{
   font-size: 16px;
 }
 #PS4{
-  background-image:url("/imagenes/Playstation-4-Logo.jpg");
+  background-image:url("../imagenes/Playstation-4-Logo.jpg");
   background-size: 500px;
   background-position: center;
   background-position-y: 25px;
 }
 #NINTENDO{
-  background-image:url("/imagenes/nintendo_switch_logo.jpg");
+  background-image:url("../imagenes/nintendo_switch_logo.jpg");
   background-position: center;
   background-color: white;
   background-repeat: no-repeat;
@@ -230,7 +230,7 @@ main{
   color: black;
 }
 #WINDOWS{
-  background-image: url("/imagenes/Windows_logo.png");
+  background-image: url("../imagenes/Windows_logo.png");
   background-position: center;
   background-size: 300px;
   background-repeat: no-repeat;

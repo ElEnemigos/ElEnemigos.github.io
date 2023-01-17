@@ -2,27 +2,27 @@ let articles = {
     data: [
         {
             gameName: "Ghost of Tsushima",
-            image: "/imagenes/gost_tsuchima.jpeg",
+            image: "imagenes/gost_tsuchima.jpeg",
             reference: "#",
         },
         {
             gameName: "Assassin's Creed I",
-            image:"/imagenes/assasins_creed_1.jpeg",
+            image:"imagenes/assasins_creed_1.jpeg",
             reference: "#",
         },
         {
             gameName:"Metal Gear Solid 3: Snake Eater",
-            image:"/imagenes/Metal_Gear_Solid_3_Snake_Eater.jpg",
+            image:"imagenes/Metal_Gear_Solid_3_Snake_Eater.jpg",
             reference: "#",
         },
         {
             gameName:"Devil May Cry",
-            image:"/imagenes/DevilMayCry.jpg",
+            image:"imagenes/DevilMayCry.jpg",
             reference: "#",
         },
         {
             gameName: "Ghost of Tsushima",
-            image: "/imagenes/gost_tsuchima.jpeg",
+            image: "imagenes/gost_tsuchima.jpeg",
             reference: "#",
         },
     ],
