@@ -25,6 +25,31 @@ let articles = {
             image: "imagenes/gost_tsuchima.jpeg",
             reference: "#",
         },
+        {
+            gameName: "Ghost of Tsushima",
+            image: "imagenes/gost_tsuchima.jpeg",
+            reference: "#",
+        },
+        {
+            gameName: "Ghost of Tsushima",
+            image: "imagenes/gost_tsuchima.jpeg",
+            reference: "#",
+        },
+        {
+            gameName: "Ghost of Tsushima",
+            image: "imagenes/gost_tsuchima.jpeg",
+            reference: "#",
+        },
+        {
+            gameName: "Ghost of Tsushima",
+            image: "imagenes/gost_tsuchima.jpeg",
+            reference: "#",
+        },
+        {
+            gameName: "Ghost of Tsushima",
+            image: "imagenes/gost_tsuchima.jpeg",
+            reference: "#",
+        },
     ],
 };    
 

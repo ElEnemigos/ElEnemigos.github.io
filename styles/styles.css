@@ -116,7 +116,7 @@ main h1{
 #articles{
   display: grid;
   grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 300px 300px 300px;
+  grid-auto-rows: 300px;
   justify-content: center;
   grid-gap: 10px;
 }
@@ -170,11 +170,10 @@ main{
   margin: 30px;
 }
 .cosas{
-  width: 35%;
+  width: 200px;
 }
 .i-platform{
   margin-bottom: 60px;
-  box-shadow: 0 0 5px black;
   height: 400px;
   border-radius: 15px;
 }
@@ -189,13 +188,13 @@ main{
   padding-right: 10px;
 }
 #PS4 a:hover{
-  color:blue;
-  background-color: white;
+  color: rgb(38, 4, 235);
+  background-color: #191919;
   transition: all .5s;
 }
 #NINTENDO a:hover{
   color:red;
-  background-color: white ;
+  background-color: #191919 ;
   transition:all .5s;
 }
 .i-platform h2{
@@ -213,26 +212,160 @@ main{
   font-size: 16px;
 }
 #PS4{
-  background-image:url("../imagenes/Playstation-4-Logo.jpg");
+  background-image:url("../imagenes/ps4-logo-transparente.png");
   background-size: 500px;
+  background-repeat: no-repeat;
   background-position: center;
-  background-position-y: 25px;
+  background-position-y: 80px;
+  background-position-x: 50px ;
+  background-color:#191919;
+  animation-name: PS4;
+  animation-duration: 1.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 #NINTENDO{
-  background-image:url("../imagenes/nintendo_switch_logo.jpg");
+  background-image:url("../imagenes/nintendo_logo_transparent.png");
   background-position: center;
-  background-color: white;
+  background-color: #191919;
   background-repeat: no-repeat;
-  background-size: 750px;
-  background-position-y: 20px;
-}
-#NINTENDO p, #NINTENDO h2{
-  color: black;
+  background-size: 500px;
+  background-position-y: 100px;
+  animation-name: NINTENDO;
+  animation-duration: 1.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 #WINDOWS{
-  background-image: url("../imagenes/Windows_logo.png");
+  background-image: url("../imagenes/Windows_logo_transparent.png");
   background-position: center;
-  background-size: 300px;
+  background-position-y: 45px ;
+  background-size: 200px;
   background-repeat: no-repeat;
-  background-color:  #042a6c;
+  background-color:#191919;
+  animation-name: WINDOWS;
+  animation-duration: 1.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#WINDOWS a:hover{
+  background-color:#191919;
+  color:  #67bfd3;
+  transition:all .5s;
+}
+
+#XBOX{
+  background-image: url("../imagenes/Xbox_one_logo.png");
+  background-position: center;
+  background-size: 220px;
+  background-position-y:38px;
+  background-repeat: no-repeat;
+  background-color: #191919;
+  animation-name: XBOX;
+  animation-duration: 1.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#XBOX a:hover{
+  background-color: #191919;
+  color: green;
+  transition:all .5s;
+}
+
+#ANDROID{
+  background-image: url("../imagenes/Android_logo_transparent.png");
+  background-position: center;
+  background-size: 170px;
+  background-position-y:45px ;
+  background-color: #191919;
+  background-repeat: no-repeat;
+  animation-name: ANDROID;
+  animation-duration: 1.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+#ANDROID a:hover{
+  background-color: #191919;
+  color: #40a74d;
+  transition:all .5s;
+}
+
+#LINUX{
+  background-color: #191919;
+  background-image: url("../imagenes/LINUX-LOGO_transparent.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position-y: 40px;
+  animation-name: LINUX;
+  animation-duration: 1.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+#LINUX a:hover{
+  color:#d4b422;
+  background-color: #191919;
+}
+
+
+
+@keyframes WINDOWS {
+  from{
+    box-shadow: 0 0 3px #67bfd3
+  }
+  to{
+    box-shadow: 0 0 12px #67bfd3;
+  }
+}
+@keyframes XBOX {
+  from{
+    box-shadow: 0 0 3px green
+  }
+  to{
+    box-shadow: 0 0 12px green;
+  }
+}
+@keyframes PS4 {
+  from{
+    box-shadow: 0 0 3px blue
+  }
+  to{
+    box-shadow: 0 0 12px blue;
+  }
+}
+@keyframes ANDROID {
+  from{
+    box-shadow: 0 0 3px #40a74d
+  }
+  to{
+    box-shadow: 0 0 12px #40a74d;
+  }
+}
+@keyframes NINTENDO {
+  from{
+    box-shadow: 0 0 3px #C81D11
+  }
+  to{
+    box-shadow: 0 0 12px #C81D11;
+  }
+}
+@keyframes LINUX {
+  from{
+    box-shadow: 0 0 3px #d4b422
+  }
+  to{
+    box-shadow: 0 0 12px #d4b422;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #head{
+    width:100%;
+  }
+  #navbar{
+    width:100%;
+  }
 }
