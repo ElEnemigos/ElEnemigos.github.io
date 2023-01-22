@@ -78,19 +78,44 @@ let articles = {
     document.getElementById("search").addEventListener("keyup", ({key}) => {
         if (key === "Enter") {
             //initializations
-            let searchInput = document.getElementById("search").value;
-            let elements = document.querySelectorAll(".product-name");
-            let cards = document.querySelectorAll(".box");
-            elements.forEach((element, index) => {
+            let URLactual = window.location.pathname;
+            if (URLactual == "/buscar.html"){
+                let searchInput = document.getElementById("search").value ;
+                localStorage.setItem("search", searchInput);
+                let cosa = localStorage.getItem("search");
+                let URLactual = window.location.pathname;
+                let elements = document.querySelectorAll(".product-name");
+                let cards = document.querySelectorAll(".box");
+                elements.forEach((element, index) => {
                 //check if text includes the search value
-                if (element.innerText.toUpperCase().includes(searchInput.toUpperCase())) {
+                    if (element.innerText.toUpperCase().includes(cosa.toUpperCase())) {
                   //display matching card
-                  cards[index].classList.remove("hide");
-                } else {
+                        cards[index].classList.remove("hide");
+                    } else {
                   //hide others
-                  cards[index].classList.add("hide");
-                }
-              });
+                        cards[index].classList.add("hide");
+                    }
+                });
+            }
+            else{
+                window.location="../buscar.html";
+                let searchInput = document.getElementById("search").value ;
+                localStorage.setItem("search", searchInput);
+                let cosa = localStorage.getItem("search");
+                let URLactual = window.location.pathname;
+                let elements = document.querySelectorAll(".product-name");
+                let cards = document.querySelectorAll(".box");
+                elements.forEach((element, index) => {
+                //check if text includes the search value
+                    if (element.innerText.toUpperCase().includes(cosa.toUpperCase())) {
+                  //display matching card
+                        cards[index].classList.remove("hide");
+                    } else {
+                  //hide others
+                        cards[index].classList.add("hide");
+                    }
+                });
+            }
+             
         }
     })
-
