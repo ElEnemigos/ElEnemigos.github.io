@@ -12,10 +12,12 @@ body{
   background-color: rgb(35, 31, 31);
 }
 
+.page-header{
+  display:flex;
+}
 
 
 #head{
-  display: flex;
   align-items: center;
   justify-content: space-between;
   height: 63px;
@@ -360,4 +362,13 @@ main{
   to{
     box-shadow: 0 0 12px #d4b422;
   }
+}
+
+.scroll-down{
+  transform: translate3d(0, -100%, 0);
+  transition: transform 0.4s;
+}
+.scroll-up{
+  transform: none;
+  transition:transform 0.4s;
 }
