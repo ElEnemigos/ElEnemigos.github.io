@@ -52,7 +52,10 @@ input.src:hover{
   box-shadow: 0 0 5px #C81D11;
 }
 
-
+input.cosa{
+  width: 180px;
+  box-shadow: 0 0 5px #CB1D11;
+}
 
 
 .navbar{
@@ -63,19 +66,35 @@ input.src:hover{
 
 .logo{
   margin-left: 30px;
-  
+  height: 120px;
+  width: 120px;
 }
+
+.enlace{
+  width: 100px;
+  height: 63px;
+}
+
+.buf{
+  width: 100px;
+  height: 63px;
+  position:absolute;
+  margin-left: 20px;
+}
+
+
 #head .box_jeje{
-  width: 200px;
-  height: 200px;
-  border-radius: 30px;
+  width: 120px;
+  height: 120px;
+  border-radius: 0px;
 }
 #head .contain_jeje{
-  object-fit: cover;
-  width: 60%;
-  height: 60%;
-  margin-top: 40px;
+  width: 110px;
+  height: 110px;
+  margin-left: 20px;
+  margin-top: 15px;
 }
+
 
 #head img{
   width: 100%;
@@ -223,7 +242,7 @@ main{
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 80px;
-  background-position-x: 190px ;
+  background-position-x: 80px;
   background-color:#191919;
   animation-name: PS4;
   animation-duration: 1.2s;
@@ -257,7 +276,7 @@ main{
 
 #WINDOWS a:hover{
   background-color:#191919;
-  color:  #67bfd3;
+  color:#67bfd3;
   transition:all .5s;
 }
 

@@ -78,3 +78,10 @@ let articles = {
   };
 
 const search = document.querySelector(".src");
+const clase = "cosa";
+document.getElementById("search").addEventListener("click", () => {
+  search.classList.add(clase);
+})
+document.getElementById("section").addEventListener("click", () => {
+  search.classList.remove(clase);
+})
