@@ -10,7 +10,6 @@ body{
   text-align: center;
   font-family: sans-serif;
   background-color: rgb(35, 31, 31);
-  /*background:linear-gradient(170deg, rgb(35,31,31) 20%, rgb(40,35,35) 20%);*/
 }
 
 .page-header{
@@ -52,6 +51,9 @@ input.src:hover{
   width: 180px;
   box-shadow: 0 0 5px #C81D11;
 }
+
+
+
 
 .navbar{
   display:flex;
@@ -221,7 +223,7 @@ main{
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 80px;
-  background-position-x: 50px ;
+  background-position-x: 190px ;
   background-color:#191919;
   animation-name: PS4;
   animation-duration: 1.2s;
@@ -373,6 +375,7 @@ main{
   transform: none;
   transition:transform 0.4s;
 }
+
 
 @media screen and (max-width: 800px){
   .head .section .platforms{
