@@ -242,7 +242,7 @@ main{
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: 80px;
-  background-position-x: 80px;
+  background-position-x: 50%;
   background-color:#191919;
   animation-name: PS4;
   animation-duration: 1.2s;

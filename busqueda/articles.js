@@ -54,7 +54,7 @@ let articles = {
   };
   
   
-  for (let i of articles.data){
+for (let i of articles.data){
     //Create Article
     let article = document.createElement("div");
     //Create class of the article
@@ -62,6 +62,8 @@ let articles = {
     //Create hiperlinks
     let link = document.createElement("a");
     link.setAttribute("href", i.reference);
+    link.classList.add("enlace");
+    link.className
     article.appendChild(link);
     //Create Article Name
     let name = document.createElement("h2");
@@ -75,13 +77,27 @@ let articles = {
     link.appendChild(image);
   
     document.getElementById("articles").appendChild(article);
-  };
+};
 
 const search = document.querySelector(".src");
 const clase = "cosa";
 document.getElementById("search").addEventListener("click", () => {
   search.classList.add(clase);
-})
+});
 document.getElementById("section").addEventListener("click", () => {
   search.classList.remove(clase);
+});
+
+
+const enlace = document.getElementById(".enlace");
+const enlazado = "enlazado";
+document.getElementById("enlace").addEventListener("click", () => {
+    enlace.
 })
+
+
+
+
+
+
+
