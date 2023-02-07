@@ -1,15 +1,14 @@
-
-document.getElementById("search").addEventListener("keyup", ({key}) => {
-  if (key === "Enter") {
-    let searchInput = document.getElementById("search").value ;
-    localStorage.setItem("search", searchInput);
-    window.location="buscar.html";
-      
-       
-  }
+const search = document.querySelector(".src");
+const clase = "cosa";
+document.getElementById("search").addEventListener("click", () => {
+  search.classList.add(clase);
+});
+document.getElementById("section").addEventListener("click", () => {
+  search.classList.remove(clase);
 });
 
-//const body = document.body;
+
+
 const body = document.querySelector(".page-header");
 const scrollUp = "scroll-up";
 const scrollDown = "scroll-down";
@@ -33,4 +32,3 @@ window.addEventListener("scroll", () => {
     }
     lastScroll = currentScroll;
 });
-
