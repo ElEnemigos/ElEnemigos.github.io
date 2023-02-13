@@ -10,7 +10,7 @@ let articles = {
             gameName: "Assassin's Creed I",
             id:"Assasins",
             image:"imagenes/assasins_creed_1.jpeg",
-            reference: "#",
+            reference: "../html/reviews.html",
         },
         {
             gameName:"Metal Gear Solid 3: Snake Eater",
