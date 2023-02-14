@@ -78,16 +78,16 @@ for(let i of reviews.data){
         VFp.innerText = i.valoraFinal;
         div6.appendChild(VFp);
 
-        document.getElementById("aver").appendChild(div6)
-        document.getElementById("aver").appendChild(div5);
-        document.getElementById("aver").appendChild(div4);
-        document.getElementById("aver").appendChild(div3);
-        document.getElementById("aver").appendChild(divImage);
-        document.getElementById("aver").appendChild(div2);
+        document.getElementById("section").appendChild(div6)
+        document.getElementById("section").appendChild(div5);
+        document.getElementById("section").appendChild(div4);
+        document.getElementById("section").appendChild(div3);
+        document.getElementById("section").appendChild(divImage);
+        document.getElementById("section").appendChild(div2);
     }
     else{
         let error =document.createElement("h1");
         error.innerText="No se ha encontrado el artículo";
-        document.getElementById("aver").appendChild(error);
+        document.getElementById("section").appendChild(error);
     }
 }

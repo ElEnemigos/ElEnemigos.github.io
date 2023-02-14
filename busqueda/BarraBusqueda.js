@@ -1,9 +1,9 @@
 const search = document.querySelector(".src");
 const clase = "cosa";
-document.getElementById("aver").addEventListener("click", () => {
+document.getElementById("search").addEventListener("click", () => {
   search.classList.add(clase);
 });
-document.getElementById("aver").addEventListener("click", () => {
+document.getElementById("barra").addEventListener("click", () => {
   search.classList.remove(clase);
 });
 

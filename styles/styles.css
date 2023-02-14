@@ -24,7 +24,7 @@ body{
   background: #171717;
   position:fixed;
   width: 100%;
-  z-index: 100;
+  z-index: 100000000;
 }
 
 header nav .boxit{
@@ -481,6 +481,15 @@ main{
 .item6{
   grid-area: n6;
   z-index: 200;
+}
+
+
+
+#barra{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: translateY(64px);
 }
 
 
