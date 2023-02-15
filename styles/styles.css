@@ -399,91 +399,31 @@ main{
   width: 100%;
   height: 2000px;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(4,1fr);
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
   grid-template-areas:
-  "n1 n1"
-  "n2 n3"
-  "n5 n4"
-  "n6 n6";
-}
-.item{
-  color:#ffffff;
-  text-align: justify;
-}
-.item p{
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 18px;
+  "n1 n1 n1 n1 n1"
+  "n0 n2 n2 n2 n3"
+  "n0 n2 n2 n2 n3"
+  "n0 n2 n2 n2 n3"
+  "n0 n4 n4 n4 n3";
 }
 
-.item h2{
-  text-align: center;
-  font-size: 25px;
-  text-decoration:underline;
-}
-
-.item1{
-  grid-area: n1;
+.div1{
   background-image: url(../imagenes/gost_tsuchima.jpeg);
-  background-repeat: no-repeat;
-  opacity: 0.90;
-  background-size: cover;
-  align-items: center;
-  display:grid;
   justify-content: center;
-  background-attachment:fixed;
+  align-items: center;
+  background-attachment: fixed;
+  grid-area: n1;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.item1 h1{
-  color: black;
-  transform: translateY(-50px);
-  transform: translateX(500px);
-  text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
-  position: fixed;
-  font-size: 40px;
+.div h1{
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
-
-.item2{
-  grid-area: n2;
-  background:linear-gradient(#171717, #C81D11);
-  border: #fff;
-  border-width: 6px;
-  border-style:double;
-  z-index: 200;
-}
-
-.item2 h2{
-  transform:translateY(120px);
-}
-.item2 p{
-  transform:translateY(150px);
-}
-
-.item3{
-  grid-area: n3;
-  z-index: 200;
-  background-color: #1e1f1f;
-  border: #fff;
-  border-width: 6px;
-  margin-left: 10px;
-  border-style:double;
-}
-
-.item4{
-  grid-area: n4;
-  z-index: 200;
-}
-.item5{
-  grid-area: n5;
-  z-index: 200;
-}
-.item6{
-  grid-area: n6;
-  z-index: 200;
-}
-
-
 
 #barra{
   height: 100%;
