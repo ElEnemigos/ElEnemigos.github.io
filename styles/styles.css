@@ -410,19 +410,22 @@ main{
 }
 
 .div1{
-  background-image: url(../imagenes/gost_tsuchima.jpeg);
-  justify-content: center;
-  align-items: center;
   background-attachment: fixed;
   grid-area: n1;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.div h1{
-  display: grid;
-  justify-content: center;
-  align-items: center;
+.div1 p{
+  color:black;
+  font-size: 30px;
+  padding-top: 30px;
+  font-weight:600;
+  font-style: normal;
+}
+
+.div2{
+  grid-area: n2;
 }
 
 #barra{
