@@ -442,14 +442,14 @@ main{
   }
   
   #articles{
-    grid-template-columns: 135px 135px 135px;
-    grid-auto-rows: 135px;
+    grid-template-columns: 120px 120px 120px;
+    grid-auto-rows: 120px;
 
   }
 
   #section .box{
-    width: 135px;
-    height: 135px;
+    width: 120px;
+    height: 120px;
   }
   .box a h2{
     position: absolute;
