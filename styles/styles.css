@@ -435,10 +435,13 @@ main{
   transform: translateY(64px);
 }
 
-.boxit a{
+#menu{
   display: none;
 }
 
+.nav-phone{
+  display: none;
+}
 
 @media screen and (max-width: 480px){
   body a{
@@ -452,6 +455,9 @@ main{
     grid-template-columns: 110px 110px 110px;
     grid-auto-rows: 110px; 
 
+  }
+  .buf{
+    display: none;
   }
 
   #section .box{
@@ -479,22 +485,44 @@ main{
   .section{
     display: none;
   }
-  .page-header img, .page-header a{
+  .page-header img{
     display: none;
   }
   input.src{
     width: 115px;
+    transform: translateX(40px);
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
   }
   input.src:hover{
-    width: 170px;
-    transform: translateX(-30px);
+    width: 115px;
     transition: all .3s;
   }
   #menu{
+    display: block;
+  }
+  .nav-phone{
+    display:none;
+    position:absolute;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 15px;
+    background-color: #171717;
+    list-style: none;
+    transform: translate(0px,66px);
+    border-radius: 0px 20px 20px 20px;
+  }
+  .nav-phone li{
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  .menu:hover > ul{
     display: flex;
   }
 }
