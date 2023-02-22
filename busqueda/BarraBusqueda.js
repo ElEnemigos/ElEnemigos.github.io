@@ -25,6 +25,8 @@ window.addEventListener("scroll", () => {
         // down
         body.classList.remove(scrollUp);
         body.classList.add(scrollDown);
+        document.getElementById("nav-phone").classList.remove("see");
+        document.getElementById("nav-phone").classList.add("hidden");
     } else if (currentScroll < lastScroll && body.classList.contains(scrollDown)) {
         // up
         body.classList.remove(scrollDown);
