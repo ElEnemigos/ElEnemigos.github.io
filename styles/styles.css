@@ -531,5 +531,26 @@ main{
     transform: translate3d(-100%,57px,0);
     transition: all .5s;
   }
-
+  .box-platforms p{
+    display:none;
+  }
+  .box-platforms{
+    display: flex;
+    flex-direction: column;
+  }
+  .i-platform{
+    height: 350px;
+  }
+  .i-platform a{
+    position: absolute;
+    transform: translate(-60px, 230px);
+  }
+  #PS4{
+    background-size: 270px;
+    background-position-y: 110px;
+  }
+  #NINTENDO{
+    background-size: 280px;
+    background-position-y: 110px ;
+  }
 }
