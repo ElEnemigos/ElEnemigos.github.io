@@ -539,18 +539,30 @@ main{
     flex-direction: column;
   }
   .i-platform{
-    height: 350px;
+    height: 280px;
   }
   .i-platform a{
     position: absolute;
-    transform: translate(-60px, 230px);
+    transform: translate(-60px, 180px);
   }
   #PS4{
     background-size: 270px;
-    background-position-y: 110px;
+    background-position-y: 100px;
   }
   #NINTENDO{
     background-size: 280px;
     background-position-y: 110px ;
+  }
+  #WINDOWS{
+    background-size: 170px;
+  }
+  #XBOX{
+    background-size: 180px;
+  }
+  #ANDROID{
+    background-size: 150px;
+  }
+  #LINUX{
+    background-size:170px;
   }
 }

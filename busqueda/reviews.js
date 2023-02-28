@@ -3,13 +3,19 @@ let reviews = {
         {
             gameName:"Ghost of Tsushima",
             img:"../imagenes/gost_tsuchima.jpeg",
-            by:"By Chiquito de la calzada",
+            by:"By Chikito de la calzada",
             frase:"'El samurái deshonrado'",
             sinopsis:"El juego se remonta al año 1274 en la isla nipona de Tsushima, en plena invasión mongola. Tras fracasar en la defensa y ser uni de los pococs superviviente del ataque enemigo, Jin Sakai deberá dejar de lado su honor como samurái y enfrentarse al ejército mongol para liberar su hogar.",
             puntosPos:"-Historia muy buena e inmersiva, muy buenos graficos",
             puntosNeg:"-Pesies hasta resulta predecible.",
             valoraApart:"-Historia: 9'5\n-Jugabilidad/Gameplay:7'8\n-Sonidos:9\n-Banda Sonora:10\n-Gráficos:10",
             valoraFinal:"Ghost Of Tsushima es una apuesta muy acertada por parte de la desarrolladora Suker Punch.Pese a pecar en algunos aspectos del gameplay, el resto del juego lo compensa, dando como resultado en jugo imprescindible si eres jugador de PlayStation."
+        },
+        {
+            gameName:"Assasins Creed",
+            img:"../imagenes/assasins_creed_1.jpeg",
+            by:"By Chikito de la calzada",
+            frase:"'Hallaras la respuesta cuando no necesites preguntar'",
         }
     ]
 }
